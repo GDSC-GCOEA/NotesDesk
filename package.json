@@ -4,6 +4,7 @@
   "description": "NotesDesk",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/kunal-umap/NotesDesk/issues"
   },
-  "homepage": "https://github.com/kunal-umap/NotesDesk#readme"
+  "homepage": "https://github.com/kunal-umap/NotesDesk#readme",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
 }
